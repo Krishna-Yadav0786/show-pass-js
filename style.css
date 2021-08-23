@@ -1,0 +1,47 @@
+            *{
+	margin: 0px;
+                   padding: 0px;
+                   box-sizing: border-box;
+              }
+
+            .container{
+	margin: auto;
+                   margin-top: 8%;
+                   height: 400px;
+                   width: 500px;
+                   border: 1px solid black;
+              }
+
+             input[type="text"],[type="password"]{
+	border: none;
+	outline: none;
+                   font-family: arial;
+	font-weight: bolder;
+                   letter-spacing: 1px;
+                   font-size: 15px;
+                   text-align: center;
+                   margin-top: 80px;
+                   margin-left: 32px;
+                   border-bottom: 1px solid black;
+	width: 80%;
+             }
+  
+            .btn{
+	  margin-top: 50px;
+	  border: none;
+	  outline: none;
+	  height: 50px;
+	  width: 150px;
+	  font-family: arial;
+	  font-weight: bolder;
+	  font-size: 20px;
+                     border-radius: 5px;
+                     background-color: black;
+                     color: red;
+                   }
+
+             .btn:hover{
+                      cursor: pointer;
+                      background-color: red;
+                      color: white;
+                    }
